@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'kiddish';
+    src: url('font/kiddish-webfont.woff2') format('woff2'),
+         url('font/kiddish-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+      font-family: kiddish;
+}
+.logo{
+  margin-top: 10px;
+  width: 200px  ;
+}
+header{
+  background-color: white;
+
+}
+nav {
+    width: 100%;
+    background-color: #FFEF3E;
+}
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 16.6667%; /* fallback for non-calc() browsers */
+    width: calc(100% / 6);
+    box-sizing: border-box;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+
+    color: black;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+body{
+  background-color: #6AD9D9;
+}
+.content{
+    background-color: #6AD9D9;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    border-bottom: 2px;
+}
+
+.bessenMeringue{
+  max-width: 100%
+}
+
+.kidsthumbsup{
+max-width: 100%;
+}
+
+.chatWrapper{
+    margin-top: 15px;
+    overflow-y:scroll;
+    height:355px;
+}
+.chat{
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 17px;
+    margin: 10px 0;
+}
+
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+/* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+    color: #999;
+}
+
+textarea{
+  height:55px;
+  max-width: 100%;
+}
+
+.submit{
+  background-color: white;
+  height:55px;
+  max-width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #111;
+  text-align: center;
+}
+
+.container{
+  color: #fff;
+  width: 100%;
+}
+
+footer{
+  padding-top: 10px;
+  padding-bottom:10px;
+  background-color: #FFEF3E;
+}
